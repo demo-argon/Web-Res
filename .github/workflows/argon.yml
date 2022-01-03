@@ -11,4 +11,5 @@ jobs:
         uses: argonsecurity/scanner-action@aea6b4e82b7aa06aa45efa6621ae37595ee895d7 # origin: v1.1
         with:
           audit-only: true
+          argon-scanner: "https://demo-actions.argon.io"
           argon-token: "${{ secrets.ARGON_TOKEN }}"
